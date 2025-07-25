@@ -1,0 +1,66 @@
+
+main{
+    width: 100%;
+    background-color: #f0f0f0;
+}
+.gallery-section {
+    width: 100%;
+    position: relative;
+    height: 50vh;
+    background-image: url('./images/img_about.jpg');
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  .gallery-content {
+    text-align: center;
+    color: #fff;
+  }
+  .gallery-content h1 {
+    font-size: 4rem;
+    font-family:'Times New Roman', Times, serif;
+    color: whitesmoke;
+    font-weight: 600;
+    text-transform: uppercase;
+    
+ 
+  }
+  @media only screen and (max-width: 768px) {
+    .gallery-content h1 {
+      font-size: 2rem;
+    }
+  }
+
+
+
+  .image-grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 1rem 3rem;
+    margin-bottom: 8rem;
+}
+
+.grid-item img {
+    width: 40rem;
+    height: 30rem;
+    display: block;
+    background-position: center center;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+    .image-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .image-grid {
+        grid-template-columns: 1fr;
+    }
+}

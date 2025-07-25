@@ -1,0 +1,140 @@
+.events_main{
+    width: 100%;
+    background-color: #f0f0f0;
+
+    
+}
+.events_section {
+    width: 100%;
+    position: relative;
+    height: 50vh;
+    background-image: url('./images/img_about.jpg');
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  .events-content {
+    text-align: center;
+    color: #fff;
+  }
+  .events-content h1 {
+    font-size: 4rem;
+    font-family:'Times New Roman', Times, serif;
+    color: whitesmoke;
+    font-weight: 600;
+    text-transform: uppercase;
+    
+ 
+  }
+  @media only screen and (max-width: 768px) {
+    .events-content h1 {
+      font-size: 2rem;
+    }
+  }
+
+
+
+  #event-content-section {
+    margin-top: 5rem;
+    max-width: 100%;
+   padding: 2rem 3rem;
+   margin-bottom: 2rem;
+}
+
+.content-block {
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    gap: 20px;
+}
+
+.content-block .events_text {
+    flex: 1;
+}
+.events_text h2{
+      text-transform: uppercase;
+      letter-spacing: 0.5rem;
+    font-size: 3rem;
+    font-weight: 600;
+    color: #3a3535;
+    font-family: 'Times New Roman', Times, serif;
+}
+.events_text p{
+    font-size: 1.7rem;
+    text-align: justify;
+}
+.content-block .image {
+    flex: 1;
+    text-align: center;
+}
+
+.content-block .image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+
+
+.events_frist{
+    width: 100%;
+    height: 100vh;
+ padding: 1rem 2rem;
+ background-color: #cdf3cd;
+}
+.events_second{
+    width: 100%;
+    height: 100vh;
+    padding: 1rem 2rem;
+    background-color: #f5c7ce;
+}
+.events_third{
+    width: 100%;
+    height: 100vh;
+    padding: 1rem 2rem;
+    background-color: #f5d89d;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .content-block {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .reverse {
+        flex-direction: column;
+    }
+
+    .content-block .events_text,
+    .content-block .image {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    body {
+        padding: 10px;
+    }
+
+    #event-content-section {
+        padding: 10px;
+    }
+
+    .content-block {
+        margin-bottom: 1.5rem;
+    }
+
+    .content-block .events_text h2 {
+        font-size: 1.5rem;
+    }
+
+    .content-block .events_text p {
+        font-size: 1rem;
+    }
+}

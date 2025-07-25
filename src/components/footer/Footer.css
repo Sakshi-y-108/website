@@ -1,0 +1,44 @@
+footer {
+  margin-top: 5rem;
+  width: 100%;
+  background-color:  #e6ecec;
+    color: #fff;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .social-icons a {
+   
+    color: #50ec8c;
+    font-size: 24px;
+    margin-right: 10px;
+   
+}
+.social-icons a:hover{
+
+  color: #ff7f50;
+} 
+  .footer_center{
+    color: #17eba5;
+    font-size: 2rem;
+    font-family: cursive;
+    
+  }
+  .footer_center span{
+    color: #6495ed;
+    font-size: 2.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.2rem;
+  }
+  .footer-text {
+    font-size: 2rem;
+    color: #807e7e;
+  }
+  

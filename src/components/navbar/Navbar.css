@@ -1,0 +1,51 @@
+.header{
+width: 100%;
+height: 12vh;
+background-color: aliceblue;
+position: sticky;
+top: 0;
+z-index: 100;
+
+}
+.nav_cl{
+    width: 100%;
+    height: 12vh;
+    background-color: #f0f8ff;
+  
+}
+.nav_text{
+    
+    color: #000000;
+   text-decoration: none;
+   font-weight: 500;
+   text-transform: uppercase;
+
+}
+.nav_text:hover{
+
+    color:rgb(25, 239, 57);
+ }
+
+@media (min-width: 768px) {
+ 
+    .nav_link{
+        font-size: 2rem;
+        color: rgb(241, 73, 73);
+    }
+    .logo_link{
+         font-size: 3rem  !important;
+       font-weight: 600;
+         font-style: italic;
+         background: linear-gradient(135deg, #5335cf 0%, #de005e 25%, #f66e48 50%, #de005e 75%, #5335cf 100%) !important;
+         background-clip: text !important;
+         -webkit-text-fill-color: transparent !important;
+         
+        }
+        .logo{
+           
+           width: 10rem;
+           height: 8rem;
+           mix-blend-mode: multiply;
+        }
+}
+

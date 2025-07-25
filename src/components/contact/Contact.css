@@ -1,0 +1,236 @@
+
+main{
+    width: 100%;
+    background-color: #f0f0f0;
+}
+.con-section {
+    width: 100%;
+    position: relative;
+    height: 50vh;
+    background-image: url('./images/image_con.jpg');
+    background-size: cover;
+    background-position: top;
+    display: flex;
+   
+    align-items: center;
+   
+  }
+  .con-content {
+    text-align: center;
+    color: #1a1515;
+  }
+  .con-content h1 {
+    margin-left: 2rem;
+    padding-left: 2rem;
+    font-size: 4rem;
+    font-family:cursive;
+    color: rgb(32, 29, 29);
+    font-weight: 600;
+    text-transform: uppercase;
+    
+ 
+  }
+  @media only screen and (max-width: 768px) {
+    .con-content h1 {
+      font-size: 2rem;
+    }
+  }
+
+
+
+  .contact-section {
+    width: 100%;
+   margin-bottom: 9rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+    
+  
+}
+
+.contact-left {
+    margin-left: 1rem;
+    padding: 2rem;
+    margin-bottom: 20px;
+    display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   
+   & h2{
+    font-size: 3rem;
+    font-weight: 600;
+    margin: 3rem 0;
+
+   }
+}
+.contact-form{
+    padding: 0.8rem;
+    border:2px solid #ecdddd;
+    box-shadow: 2px 2px 10px 5px #ecdddd, -2px -2px 10px 5px #ecdddd;
+    border-radius:1rem ;
+    -webkit-border-radius:1rem ;
+    -moz-border-radius:1rem ;
+    -ms-border-radius:1rem ;
+    -o-border-radius:1rem ;
+}
+.contact-right {
+    gap: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-item {
+    width: 40rem;
+    height: 17rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.right-item1{
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+    border: 2px solid white;
+    background-color: #702c90;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+
+    & h5{
+        font-size: 1.7rem;
+        color:#ffffff;
+        font-family: cursive;
+    }
+    & h6{
+        font-size: 1.7rem;
+        color:#ffffff;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    & p{
+        font-size: 3rem;
+        color: #ffca0c;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+}
+.right-item2{
+    margin-left: 10rem;
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+    border: 2px solid white;
+    background-color: #FF3394;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+
+    & h5{
+        font-size: 1.7rem;
+        color:#ffffff;
+        font-family: cursive;
+    }
+    & h6{
+        font-size: 1.7rem;
+        color:#ffffff;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+      
+    }
+
+    & p{
+        font-size: 1.8rem;
+        color: #f5f5f5;
+        font-family: cursive;
+       
+    }
+}
+
+.contact-icon {
+    margin-right: 10px;
+    font-size: 8rem;
+    color: #ece1e1;
+}
+
+/* Responsive adjustments */
+@media (min-width: 768px) {
+    .contact-section {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .contact-left {
+        margin-bottom: 0;
+    }
+
+    .contact-right {
+        align-items: flex-start;
+    }
+}
+
+
+.contact-form {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.form-group {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+label {
+    font-size: 2rem;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+    
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 6px;
+    font-size: 1.5rem;
+    outline: none;
+    border: none;
+    border-bottom:2px solid #65e965 ;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+.form_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button {
+    font-size: 2rem;
+    padding: 8px 12px;
+    font-weight: 600;
+    background-color: #3690f0;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
